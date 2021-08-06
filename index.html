@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script>
+        let num = 0;
+        num = Math.floor(Math.random() * 100 + 1);
+        let numberOfGuesses = 0;
+        let keepGoing = true;
+
+        while (keepGoing) {
+            numberOfGuesses++;
+            let guess = prompt("guess a number between 1 and 100");
+            if (num == guess) {
+                alert("Got it!" + "\n" + "It took you " + numberOfGuesses + " guesses.");
+                keepGoing = false;
+            } else if (num > guess) {
+                alert("Sorry!  You guessed " + guess + " and the number is bigger");
+            } else if (num < guess) {
+                alert("Sorry!  You guessed " + guess + " and the number is smaller");
+            }
+        }
+    </script>
+</body>
+
+</html>
