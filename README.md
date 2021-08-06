@@ -1,3 +1,3 @@
 # Demo Link
 
-<https://guess-the-number-it121.netlify.app/>
+[guess-the-number-it121.netlify.app](https://guess-the-number-it121.netlify.app/)
